@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+   margin: 0px auto;
+   display: flex;
+   width: 1065px;
+}
+
+.main {
+    background-color: #F8F8F8;
+    padding: 4px 0px 168px;
+}
+
+.main__content {
+   margin-top: 104px;
+}
+
+.main__model {
+   color: #161515;
+}
+
+.main__title {
+   color: #272727;
+   font-size: 250px;
+   font-weight: 220;
+   margin-top: 50px;
+}
+
+.main__description {
+    width: 575px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.55em;
+}
+
+.main__buttonBox {
+   display: flex; 
+   align-items: center;
+   width: 421px;
+   height: 82px;
+   align-items: top;
+   margin-top: 50px;
+}
+
+.main__button {
+   width: 278px;
+   height: 82px;
+   background-color: #161515;
+   font-weight: 300;
+   color: #F8F8F8;
+   font-size: 32px;
+   font-weight: 300;
+}
+
+.main__buttonPrice {
+   width: 143px;
+   height: 82px;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   background-color: #FFFFFF;
+   font-size: 32px;
+}
+
+.main__header-img {
+    margin-top: 4px;
+    margin-left: 60px;
+    max-width: 408px;
+}
+
+.main__watchImg{
+   width: 100%;
+}
+
+/* section models =================****======*/
+
+.second__container {
+   margin: 0px auto;
+   width: 417px;
+}
+
+.second {
+   padding: 43px 0px 85px;
+   background-color: white;
+   text-align: center;
+   height: 3250px;                  /* potom ybrat */
+}
+
+.second__content {
+   width: 531px;
+   margin: 0 auto;
+}
+
+.second__model {
+   color: #161515;
+}
+
+.second__title {
+   color: #272727;
+   font-size: 72px;
+   font-weight: 220;
+}
+
+.second__rectangle {
+   width: 417px;
+   height: 630px;
+   background-color: #F8F8F8;
+   margin: 0 auto;
+}
+
+.second__img {
+   padding-top: 110px;
+   margin: 85px auto;
+   width: 286px;
+   height: 410px;
+}
+
+.second__watchImg {
+  width: 100%;
+}
+
+.second__description {
+   margin-top: 67px;
+   width: 531px;
+   height: 238px;
+   font-size: 32px;
+   line-height: 1.55em;
+}
+
+.second__description-name {
+   font-size: 32px;
+   font-weight: 400;
+   position: relative;
+}
+
+.second__description-model {
+   font-size: 32px;
+   font-weight: 300;
+   margin-bottom: 85px;
+}
+
+.more {
+   text-decoration:underline;
+   font-family: League Spartan;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40.8px;
+   text-align: center;
+   color: #BB8B5D;
+}
+
+.second__description-name::after {
+   content: "";
+   display: block;
+   height: 1px;
+   width: 80%;
+   background-color: #161515;
+   position: absolute;
+   left: 10%;
+   bottom: -8px;
+}
