@@ -1,0 +1,35 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+input {
+   width: 300px;
+   padding: 8px;
+   margin-right: 10px;
+}
+
+button {
+   padding: 8px 16px;
+   cursor: pointer;
+}
+
+.imgs_container {
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+.imgs_container img {
+   display: block; 
+   width: 150px;
+   height: 150px;
+   object-fit: contain;
+   border: 1px solid rgb(179, 179, 241);
+   border-radius: 5px;
+   margin-top: 10px;
+}
